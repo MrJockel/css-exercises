@@ -1,6 +1,27 @@
 .header  {
+  display: flex;
   font-family: monospace;
   background: papayawhip;
+  justify-content: space-between;
+  align-items: center;
+padding: 8px;
+}
+
+/*li{
+  display:inline;
+  margin: 10px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}*/
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
 .logo {
